@@ -1,0 +1,135 @@
+.bus-container{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.bus-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.seat-types{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1%;
+    height:500px;
+    position: absolute;
+    left: 0;
+}
+.seat-types-right{
+    margin-left:250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1%;
+    height:500px;
+    position: absolute;
+    background-color: white;
+}
+.seat-type-data{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1%;
+}
+.seats{
+    width:40px;
+    height:70px;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border-radius: 5px 5px;
+    overflow-wrap: break-word;
+}
+.lower-deck,.upper-deck{
+    margin-left: 200px;
+    min-height:100vh;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.headings{
+    width:100%;
+    border-bottom: 1px solid black;
+}
+.seat-rows{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    position: relative;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+}
+.seat-price {
+    position: absolute;
+    top: -30px;
+    transform: translateX(-50%);
+    background-color: #053fbb;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+.seat{
+    width:80px;
+    height:150px;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 2%;
+    border-radius: 5px 5px;
+}
+.selected {
+    background-color: green !important; 
+  }
+.left{
+    margin-right:15%;
+}
+#female{
+    border: 1px solid rgb(249, 80, 255);
+}
+#normal{
+    border: 1px solid rgb(91, 235, 91);
+}
+.booked{
+    border: 1px solid black;
+    background-color: rgb(116, 117, 117);
+}
+.small-box{
+    width:70%;
+    height: 10%;
+    border-radius: 10px 10px;
+}
+.booking-box{
+    min-width: 12%;
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    margin-left: 45%;
+    overflow: auto;
+    
+    
+}
+.booked-seat-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    overflow: auto;
+}
